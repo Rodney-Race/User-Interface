@@ -60,7 +60,32 @@ html, body {
 h1, h2, h3, h4, h5 {
     font-family: 'Bangers', cursive;
     letter-spacing: 1px;
-    margin-bottom: 15px;
+	margin-bottom: 15px;
 }
 
 /* Your code starts here! */
+.box-class {
+	padding: 5px 20px;
+	background: white;
+	border: 1px white;
+    margin: 10px;
+    border-radius: 5px;
+    display: inline-block;
+    color: black
+}
+.image {
+	size: 200px;
+	text-align: right;
+}
+.nav-item {
+  padding: 10px 40px;
+  margin: 70px;
+  display: inline-block;
+  color: black
+}
+.address {
+	display: inline;
+}
+.copyright{
+	text-align: center;
+}
