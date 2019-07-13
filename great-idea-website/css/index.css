@@ -84,7 +84,7 @@ h1, h2, h3, h4, h5 {
 	color: black;
 }
 .image {
-	size: 200px;
+	size: 300px;
 	text-align: center;
 }
 .image2 {
@@ -96,6 +96,12 @@ h1, h2, h3, h4, h5 {
   display: inline-block;
   color: black
 }
+.p {
+  margin: 20px;
+  box-sizing: border-box;
+  display: inline-block;	
+}
+
 .address {
 	display: inline;
 }
