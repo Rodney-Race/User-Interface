@@ -80,7 +80,7 @@ button {
 	font-size: 10px;		
 	margin: 5%;
 	text-align: center;
-    display: inline-block;
+
 	color: black;
 	vertical-align: top;
 }
@@ -104,16 +104,20 @@ button {
   color: gray;
 }
 .p {
-  margin: 20px;
+  margin: 1%;
   box-sizing: border-box;
   display: inline-block;
   font-size: 20px;
-  padding: 10px; 	
+  padding: 10px;
+  text-align: left; 	
 }
 
 .address {
 	display: inline;
 	text-align: left;
+}
+.info {
+	padding: 10px;
 }
 .copyright{
 	text-align: center;
