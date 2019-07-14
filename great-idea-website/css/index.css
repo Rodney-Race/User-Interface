@@ -49,7 +49,7 @@ table {
 
 /* Set every element's box-sizing to border-box */
 * {
-    box-sizing: border-box;
+	box-sizing: border-box;
 }
 
 html, body {
@@ -67,20 +67,20 @@ h1, h2, h3, h4, h5 {
 .box {
   width: 100px;
   height: 100px;
-  font-size: 100px;
-  margin: 10px;
+  font-size: 120px;
+  margin: 100px;
   color: black;
   text-align: center;
   padding-top: 40px;  
   display: block;
 }
-.box-class {
-	width: 3000px;
-    height: 50px;	
-	font-size: 250px;		
-	margin: 50px;
+button {
+	width: 75px;
+    height: 25px;	
+	font-size: 10px;		
+	margin: 0px;
 	text-align: left;
-    display: block;
+    display: inline-block;
 	color: black;
 }
 .image {
@@ -94,16 +94,19 @@ h1, h2, h3, h4, h5 {
   padding: 10px 40px;
   margin: 70px;
   display: inline-block;
-  color: black
+  color: gray;
 }
 .p {
   margin: 20px;
   box-sizing: border-box;
-  display: inline-block;	
+  display: inline-block;
+  font-size: 20px;
+  padding: 10px; 	
 }
 
 .address {
 	display: inline;
+	text-align: left;
 }
 .copyright{
 	text-align: center;
