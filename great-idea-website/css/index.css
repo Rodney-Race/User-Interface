@@ -80,7 +80,8 @@ body {
 	color: gray;
   }
 .hr {
-	margin: 100px;
+	margin: 15px; 
+	padding: 10px 80px;
 }
 
 .box1 {
@@ -125,7 +126,7 @@ button {
 
 .address {
 	margin: 15px; 
-	 padding: 10px 80px;
+	padding: 10px 80px;
 }
 footer {
 	display: inline;
@@ -134,8 +135,8 @@ footer {
 	padding: 10px 80px;
 }
 .info {
-	 margin: 15px; 
-	 padding: 10px 80px;
+	margin: 15px; 
+	padding: 10px 80px;
 }
 .copyright{
 	text-align: center;
