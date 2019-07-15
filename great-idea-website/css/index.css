@@ -64,25 +64,37 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Your code starts here! */
+body {
+	text-align: center;
+	
+}
 .container{
-  margin: 1%;
-  text-align: center;
-}
-.nav-item {
-  padding: 10px 40px;
-  margin: 1%;
-  display: inline-block;
-  color: gray;
-}
-.box {
-  width: 100px;
-  height: 100px;
-  font-size: 120px;
-  margin: 10%;
-  color: black;
+	margin: 0px;
+	padding: 0px;
+	text-align: center;
+  }
   
-  padding-top: 30px;  
-  display: block;
+  .nav-item {
+	margin: 4%;
+	display: inline-block;
+	color: gray;
+  }
+.hr {
+	margin: 100px;
+}
+
+.box1 {
+	text-align: middle;
+}
+.box2 {
+	width: 100px;
+	height: 100px;
+	font-size: 120px;
+	margin: 10%;
+	color: black;
+	text-align: middle;
+	padding-top: 30px;  
+	display: block;
 }
 button {
 	width: 235%;
@@ -95,7 +107,7 @@ button {
 	size: 300px;
 	text-align: center;
 	padding: 2%;
-	vertical-align: super;
+	
 }
 .image2 {
 	width: 100%;
@@ -112,15 +124,20 @@ button {
 }
 
 .address {
+	margin: 15px; 
+	 padding: 10px 80px;
+}
+footer {
 	display: inline;
 	text-align: left;
 	margin: 2%;
 	padding: 10px 80px;
 }
 .info {
-	padding: 10px 80px;
+	 margin: 15px; 
+	 padding: 10px 80px;
 }
 .copyright{
 	text-align: center;
-	margin: 1%;
+	margin: 5%;
 }
