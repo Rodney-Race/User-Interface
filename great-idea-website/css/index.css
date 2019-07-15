@@ -65,8 +65,8 @@ h1, h2, h3, h4, h5 {
 
 /* Your code starts here! */
 .container{
-	margin: 0%;
-	text-align: center;	
+  margin: 1%;
+  text-align: center;
 }
 .nav-item {
   padding: 10px 40px;
@@ -80,19 +80,16 @@ h1, h2, h3, h4, h5 {
   font-size: 120px;
   margin: 10%;
   color: black;
-  text-align: center;
+  
   padding-top: 30px;  
   display: block;
 }
 button {
 	width: 235%;
-    height: 40%;	
-	font-size: 15px;		
-	margin: 40%;	
-	display: flex;
-    justify-content: center;
-	color: black;
-	vertical-align: text-top;
+    height: 75%;
+	font-size: 20px;
+	margin: 40%;
+	color: black;	
 }
 .image {
 	size: 300px;
@@ -107,12 +104,11 @@ button {
 }
 
 .p {
-  margin: 1%;
-
+  margin: 3%;
+  text-align: left;
   display: inline-block;
   font-size: 20px;
-
-  text-align: left; 	
+  vertical-align: middle;	
 }
 
 .address {
