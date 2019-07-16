@@ -74,16 +74,10 @@ body {
   }
   .nav-item {
 	margin: 20px; 
-	padding: 1px 75px;
+	padding: 1px 62px;
 	display: inline-block;
 	color: gray;
   }
-button {
-	font-size: 17px;
-	margin: 10px; 
-	padding: 5px 70px;
-	color: black;	
-}
 .top {
 	font-size: 100px;
 	color: black;
@@ -99,14 +93,17 @@ button {
 	margin: 15px; 
 	padding: 20px 150px;
 }
+button {
+	font-size: 17px;
+	margin: 10px; 
+	padding: 5px 60px;
+	color: black;	
+}
 .img {
-	margin: 100px; 
-	padding: 1px 120px;
-	width: 90%;
-    height: 150%;
+	margin: 50px; 
+	padding: 1px 450px;
 	text-align: right;
 }
-
 .p1 {
 	width: 50%;
 	margin: 15px; 
@@ -120,26 +117,26 @@ button {
 	text-align: left;
 }
 .p3 {
-	width: 50%;
+	width: 33%;
 	margin: 20px; 
     padding: 1px 180px;
 	text-align: left;
 }
 .p4 {
-	width: 50%;
+	width: 33%;
 	margin: 20px; 
     padding: 1px 180px;
 	text-align: left;
 }
 .p5 {
-	width: 50%;
+	width: 33%;
 	margin: 20px; 
     padding: 1px 180px;
 	text-align: left;
 }
 .group1 {	
 	width: 100%;
-	height: 20%;
+	height: 18%;
 	font-size: 20px;
 	display: inline-flex;
 }
@@ -156,8 +153,8 @@ button {
 }
 
 .hr {
-	margin: 50px; 
-	padding: 1px 150px;
+	margin: 90px; 
+	padding: 1px 100px;
 }
 .address {
 	margin: 20px; 
