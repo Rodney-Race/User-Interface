@@ -64,114 +64,138 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Your code starts here! */
-body {
-	width: 1880px;
-	text-align: center;	
+p {
+	font-size: 14px;
+	margin: 10px auto;
 }
-.container{
-	margin: 1px; 
-	padding: .1px;
-	text-align: center;
-  }
-  .nav-item {
-	margin: 20px; 
-	padding: 1px 62px;
-	display: inline-block;
-	color: gray;
-  }
-.top {
-	font-size: 100px;
-	color: black;
-	text-align: left;  
-	margin: 1px; 
-	padding: 1px 80px;
-	display: inline-flex;
-}
-.box {
-	font-size: 100px;
-	color: black;
-	text-align: center;  
-	margin: 15px; 
-	padding: 20px 150px;
-}
-button {
-	font-size: 17px;
-	margin: 10px; 
-	padding: 5px 60px;
-	color: black;	
-}
-.img {
-	margin: 50px; 
-	padding: 1px 450px;
-	text-align: right;
-}
-.p1 {
-	width: 50%;
-	margin: 15px; 
-    padding: 1px 185px;
-	text-align: left;
-}
-.p2 {
-	width: 50%;
-	margin: 20px; 
-    padding: 1px 180px;
-	text-align: left;
-}
-.p3 {
-	width: 33%;
-	margin: 20px; 
-    padding: 1px 180px;
-	text-align: left;
-}
-.p4 {
-	width: 33%;
-	margin: 20px; 
-    padding: 1px 180px;
-	text-align: left;
-}
-.p5 {
-	width: 33%;
-	margin: 20px; 
-    padding: 1px 180px;
-	text-align: left;
-}
-.group1 {	
-	width: 100%;
-	height: 18%;
-	font-size: 20px;
-	display: inline-flex;
-}
-.group2 {	
-	width: 100%;
-	height: 20%;
-	font-size: 20px;
-	display: inline-flex;
-}
-.middle-img {
-	width: 79%;
-    height: 20%;
-	text-align: center;
+.container {
+	width: 1000px;
+	margin: auto;
+	border: 1px solid black; 
+	padding: 30px 50px 30px 50px;
 }
 
-.hr {
-	margin: 90px; 
-	padding: 1px 100px;
+header {
+	/* stretch goals */
+	width: 1000px;
+	margin: auto;
+	background-color: rgb(129, 4, 4);
+	padding: 15px;
+	position: sticky;
+	top: 0px;
+	z-index: 1;
+	font-family: 'Mountains of Christmas', cursive;
+
 }
-.address {
-	margin: 20px; 
-	padding: 1px 180px;
+header nav {
+	display: inline-block;
+	
+	/* stretch goals */
+	vertical-align: middle;
 }
-footer {
-	display: inline;
-	text-align: left;
-	margin: 50px; 
-	padding: 1px 150px;
+header nav a {
+	text-decoration: none;
+	margin: 0 20px;
+	color: white;
+	font-size: 20px;
+	font-weight: bold;
 }
-.info {
-	margin: 20px; 
-	padding: 1px 180px;
+
+header nav a:hover {
+	box-sizing: border-box;
+	background: black;
+	padding: 0px 10px;
+	font-family: 'Indie Flower', cursive;
+
 }
-.copyright{
+
+.logo {
+	margin-left: 20px;
+}
+
+.innovation{
+	display: inline-block;
+	margin-top: 60px;
+}
+
+.innovation h1 {
+	font-size: 80px;
 	text-align: center;
-	margin: 5%;
+	float: left;
+	margin: 70px;
+}
+
+.innovation button {
+	position: relative;
+	top: 320px;
+	left: -315px;
+	border: 1px solid black;
+	font-size: 18px;
+	padding: 8px 40px;
+
+}
+
+
+.top-content {
+	border-top: 1px solid black;
+	margin-top: 50px;
+	padding-top: 20px;
+}
+
+.twins {
+	width: 50%;
+	padding: 1em;
+	float: left;
+  }
+
+  .boxes {
+	width: 33%;
+	padding: 1em;
+	float: left;
+  }
+
+
+.contact {
+	clear: both;
+	border-top: 1px solid black;
+	margin-top: 100px;
+	padding-top: 30px;
+}
+
+footer p {
+	text-align: center;
+	margin-bottom: 70px;
+}
+
+.product {
+	display: inline-block;
+	box-sizing: border-box;
+	border: 1px solid green;
+	text-align: center;
+	padding: 10px;
+	width: 33%;
+}
+
+h1 {
+	text-align: center;
+	font-size: 30px;
+	line-height: 1em;
+}
+
+p {
+	font-size: 14px;
+	line-height: 1.2em;
+}
+
+.content {
+	padding-bottom: 20px;
+}
+
+.service2-inn {
+	width: 900px;
+	background: url("../header-img.png") no-repeat  right ;	
+}
+
+.bk-img {
+	background-image: url("../img/mid-page-accent.jpg");
 }
